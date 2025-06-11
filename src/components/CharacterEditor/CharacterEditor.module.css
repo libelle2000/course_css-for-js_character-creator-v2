@@ -1,8 +1,6 @@
 .characterEditor {
-  padding-bottom: 64px;
-}
-.characterEditor, .characterWrapper {
   padding-top: 128px;
+  padding-bottom: 64px;
 }
 
 .maxWidthWrapper {
