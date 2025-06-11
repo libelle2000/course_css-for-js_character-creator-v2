@@ -25,6 +25,7 @@
 }
 
 .characterWrapper {
+  min-height: 500px;
 }
 
 .controlColumn {
