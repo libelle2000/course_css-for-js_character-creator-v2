@@ -25,6 +25,14 @@
 }
 
 .characterWrapper {
+  height: 100%;
+  max-width: 50%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.characterWrapper svg {
   min-height: 500px;
 }
 
