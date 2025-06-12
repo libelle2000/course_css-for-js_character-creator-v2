@@ -1,9 +1,23 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  isolation: isolate;
+}
+
+.characterEditor::before {
+  z-index: 0;
+  content: '';
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: rgb(214, 223, 225);
 }
 
 .maxWidthWrapper {
+  position: relative;
+  z-index: 1;
 }
 
 .header {
@@ -28,6 +42,7 @@
   max-width: 50%;
   min-height: 500px;
   position: fixed;
+  z-index: 1;
   top: 15%;
   left: 65%;
   bottom: 5%;
